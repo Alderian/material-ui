@@ -1,7 +1,7 @@
 let React = require('react');
 let mui = require('material-ui');
-let { Menu, MenuItem, MenuDivider } = mui
-let ArrowDropRight = require('svg-icons/navigation-arrow-drop-right');
+let { Menu, MenuItem, MenuDivider } = mui;
+let NavigationArrowDropRight = require('svg-icons/navigation-arrow-drop-right');
 let ContentCopy = require('svg-icons/content/content-copy');
 let ContentLink = require('svg-icons/content/link');
 let Delete = require('svg-icons/action/delete');
@@ -30,11 +30,11 @@ class MenusPage extends React.Component {
       <MenuItem secondaryText="&#8984;.">Superscript</MenuItem>
       <MenuItem secondaryText="&#8984;,">Subscript</MenuItem>
       <MenuDivider />
-      <MenuItem rightIcon={<ArrowDropRight />}>Paragraph styles</MenuItem>
-      <MenuItem rightIcon={<ArrowDropRight />}>Align</MenuItem>
-      <MenuItem rightIcon={<ArrowDropRight />}>Line spacing</MenuItem>
-      <MenuItem rightIcon={<ArrowDropRight />}>Numbered list</MenuItem>
-      <MenuItem rightIcon={<ArrowDropRight />}>List options</MenuItem>
+      <MenuItem rightIcon={<NavigationArrowDropRight />}>Paragraph styles</MenuItem>
+      <MenuItem rightIcon={<NavigationArrowDropRight />}>Align</MenuItem>
+      <MenuItem rightIcon={<NavigationArrowDropRight />}>Line spacing</MenuItem>
+      <MenuItem rightIcon={<NavigationArrowDropRight />}>Numbered list</MenuItem>
+      <MenuItem rightIcon={<NavigationArrowDropRight />}>List options</MenuItem>
       <MenuDivider />
       <MenuItem secondaryText="&#8984;/">Clear formatting</MenuItem>
     </Menu>
@@ -268,11 +268,11 @@ class MenusPage extends React.Component {
           <MenuItem secondaryText="&#8984;.">Superscript</MenuItem>
           <MenuItem secondaryText="&#8984;,">Subscript</MenuItem>
           <MenuDivider />
-          <MenuItem rightIcon={<ArrowDropRight />}>Paragraph styles</MenuItem>
-          <MenuItem rightIcon={<ArrowDropRight />}>Align</MenuItem>
-          <MenuItem rightIcon={<ArrowDropRight />}>Line spacing</MenuItem>
-          <MenuItem rightIcon={<ArrowDropRight />}>Numbered list</MenuItem>
-          <MenuItem rightIcon={<ArrowDropRight />}>List options</MenuItem>
+          <MenuItem rightIcon={<NavigationArrowDropRight />}>Paragraph styles</MenuItem>
+          <MenuItem rightIcon={<NavigationArrowDropRight />}>Align</MenuItem>
+          <MenuItem rightIcon={<NavigationArrowDropRight />}>Line spacing</MenuItem>
+          <MenuItem rightIcon={<NavigationArrowDropRight />}>Numbered list</MenuItem>
+          <MenuItem rightIcon={<NavigationArrowDropRight />}>List options</MenuItem>
           <MenuDivider />
           <MenuItem secondaryText="&#8984;/">Clear formatting</MenuItem>
         </Menu>
@@ -281,7 +281,7 @@ class MenusPage extends React.Component {
           <MenuItem insetChildren={true}>Single</MenuItem>
           <MenuItem insetChildren={true}>1.15</MenuItem>
           <MenuItem insetChildren={true}>Double</MenuItem>
-          <MenuItem checked={true} rightIcon={<ArrowDropRight />}>Custom: 1.2</MenuItem>
+          <MenuItem checked={true} rightIcon={<NavigationArrowDropRight />}>Custom: 1.2</MenuItem>
           <MenuItem secondaryText="&#8984;.">Superscript</MenuItem>
           <MenuItem secondaryText="&#8984;,">Subscript</MenuItem>
           <MenuDivider />
