@@ -1,7 +1,5 @@
 let React = require('react');
-let Menu = require('menus/menu');
-let MenuItem = require('menus/menu-item');
-let MenuDivider = require('menus/menu-divider');
+let { Menu, MenuItem, MenuDivider } = require('material-ui');
 let ComponentDoc = require('../../component-doc');
 
 let ArrowDropRight = require('svg-icons/navigation-arrow-drop-right');

@@ -1,7 +1,5 @@
 let React = require('react');
-let { IconButton } = require('material-ui');
-let IconMenu = require('menus/icon-menu');
-let MenuItem = require('menus/menu-item');
+let { IconButton, IconMenu, MenuItem } = require('material-ui');
 let MoreVertIcon = require('svg-icons/navigation/more-vert');
 let ComponentDoc = require('../../component-doc');
 
