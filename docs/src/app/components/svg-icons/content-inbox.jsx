@@ -1,5 +1,5 @@
 let React = require('react');
-let { SvgIcon } = require('mui');
+let { SvgIcon } = require('material-ui');
 
 
 class ContentInbox extends React.Component {
