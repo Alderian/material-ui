@@ -1,7 +1,5 @@
 let React = require('react');
 let mui = require('material-ui');
-let ComponentDoc = require('../../component-doc');
-let MobileTearSheet = require('../../mobile-tear-sheet');
 let ActionAssignment = require('svg-icons/action/assignment');
 let ActionGrade = require('svg-icons/action/grade');
 let ActionInfo = require('svg-icons/action/info');
@@ -14,7 +12,6 @@ let ContentSend = require('svg-icons/content/send');
 let EditorInsertChart = require('svg-icons/editor/insert-chart');
 let FileFolder = require('svg-icons/file/folder');
 let ToggleStarBorder = require('svg-icons/toggle/star-border');
-
 let {
   Avatar,
   Checkbox,
@@ -26,7 +23,8 @@ let {
   Toggle
 } = mui;
 let { Colors } = Styles;
-
+let ComponentDoc = require('../../component-doc');
+let MobileTearSheet = require('../../mobile-tear-sheet');
 
 class ListsPage extends React.Component {
 

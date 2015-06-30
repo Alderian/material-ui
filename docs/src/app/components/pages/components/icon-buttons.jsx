@@ -1,8 +1,9 @@
 let React = require('react');
-let { FontIcon, IconButton, NavigationMenu } = require('material-ui');
-let ComponentDoc = require('../../component-doc');
+let mui = require('material-ui');
+let { FontIcon, IconButton, NavigationMenu } = mui;
 let ActionGrade = require('svg-icons/action/grade');
 let ActionHome = require('svg-icons/action/home');
+let ComponentDoc = require('../../component-doc');
 
 
 class IconButtonsPage extends React.Component {

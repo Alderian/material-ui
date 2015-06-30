@@ -1,10 +1,5 @@
 let React = require('react');
 let mui = require('material-ui');
-let CodeExample = require('../../code-example/code-example');
-let ComponentDoc = require('../../component-doc');
-let ToggleStar = require('svg-icons/toggle/star');
-let ToggleStarBorder = require('svg-icons/toggle/star-border');
-
 let {
   Checkbox,
   ClearFix,
@@ -16,8 +11,11 @@ let {
   Tabs,
   Toggle
 } = mui;
+let ToggleStar = require('svg-icons/toggle/star');
+let ToggleStarBorder = require('svg-icons/toggle/star-border');
 let { Typography } = Styles;
-
+let CodeExample = require('../../code-example/code-example');
+let ComponentDoc = require('../../component-doc');
 
 class SwitchesPage extends React.Component {
 

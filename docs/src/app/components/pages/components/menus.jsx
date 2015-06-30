@@ -1,7 +1,6 @@
 let React = require('react');
-let { Menu, MenuItem, MenuDivider } = require('material-ui');
-let ComponentDoc = require('../../component-doc');
-
+let mui = require('material-ui');
+let { Menu, MenuItem, MenuDivider } = mui
 let ArrowDropRight = require('svg-icons/navigation-arrow-drop-right');
 let ContentCopy = require('svg-icons/content/content-copy');
 let ContentLink = require('svg-icons/content/link');
@@ -9,6 +8,7 @@ let Delete = require('svg-icons/action/delete');
 let Download = require('svg-icons/file/file-download');
 let PersonAdd = require('svg-icons/social/person-add');
 let RemoveRedEye = require('svg-icons/image/remove-red-eye');
+let ComponentDoc = require('../../component-doc');
 
 class MenusPage extends React.Component {
 

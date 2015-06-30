@@ -1,9 +1,5 @@
 let React = require('react');
 let mui = require('material-ui');
-let CodeBlock = require('../../code-example/code-block');
-let ComponentDoc = require('../../component-doc');
-let ComponentInfo = require('../../component-info');
-
 let {
   Checkbox,
   ClearFix,
@@ -30,6 +26,9 @@ let {
 let { StylePropable, StyleResizable } = Mixins;
 let { Typography } = Styles;
 let ThemeManager = new Styles.ThemeManager();
+let CodeBlock = require('../../code-example/code-block');
+let ComponentDoc = require('../../component-doc');
+let ComponentInfo = require('../../component-info');
 
 
 let ThemesPage = React.createClass({

@@ -1,5 +1,6 @@
 let React = require('react');
-let { AppBar, DropDownMenu, IconButton, FlatButton } = require('material-ui');
+let mui = require('material-ui');
+let { AppBar, DropDownMenu, IconButton, FlatButton } = mui;
 let NavigationClose = require('svg-icons/navigation/close');
 let ComponentDoc = require('../../component-doc');
 

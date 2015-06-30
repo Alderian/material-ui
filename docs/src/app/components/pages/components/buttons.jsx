@@ -1,8 +1,5 @@
 let React = require('react');
-let ComponentDoc = require('../../component-doc');
 let mui = require('material-ui');
-let ToggleStar = require('svg-icons/toggle/star');
-
 let {
   ClearFix,
   FlatButton,
@@ -16,6 +13,8 @@ let {
 } = mui;
 let extend = Utils.Extend;
 let { Colors, Typography } = Styles;
+let ToggleStar = require('svg-icons/toggle/star');
+let ComponentDoc = require('../../component-doc');
 
 
 class ButtonPage extends React.Component {

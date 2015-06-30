@@ -1,9 +1,9 @@
 let React = require('react');
-let { ClearFix, FontIcon, Styles } = require('material-ui');
-let ComponentDoc = require('../../component-doc');
+let mui = require('material-ui');
+let { ClearFix, FontIcon, Styles } = mui;
 let ActionHome = require('svg-icons/action/home');
-
 let { Colors, Typography } = Styles;
+let ComponentDoc = require('../../component-doc');
 
 
 class FontIconPage extends React.Component {

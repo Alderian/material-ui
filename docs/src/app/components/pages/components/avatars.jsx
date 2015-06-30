@@ -1,8 +1,9 @@
 let React = require('react');
-let { Avatar, FontIcon, List, ListItem, Styles } = require('material-ui');
-let ComponentDoc = require('../../component-doc');
+let mui = require('material-ui');
+let { Avatar, FontIcon, List, ListItem, Styles } = mui;
 let FileFolder = require('svg-icons/file/folder');
 let { Colors } = Styles;
+let ComponentDoc = require('../../component-doc');
 
 class AvatarsPage extends React.Component {
 
